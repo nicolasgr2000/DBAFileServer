@@ -35,7 +35,6 @@ namespace DBAFileServer
             // filesTimer
             // 
             this.filesTimer.Enabled = true;
-            this.filesTimer.Interval = 10800000D;
             this.filesTimer.Elapsed += new System.Timers.ElapsedEventHandler(this.filesTimer_Elapsed);
             // 
             // FilesService
