@@ -8,7 +8,7 @@ Configurable Source and Destination Paths: The service reads the source and dest
 Logging: Logs all activities, including start and stop events, file copying actions, and any errors encountered, to the Windows Event Log.
 Scheduled Execution: Runs every 3 hours by default.
 
-##Features
+## Features
 
   * Automated Backup File Copying: Copies all .bak files from the source to the destination directory while maintaining the directory structure.
   * Configurable Source and Destination Paths: The service reads the source and destination paths from a configuration file.
@@ -26,7 +26,7 @@ The App.config file should contain the following keys to specify the source and 
         <add key="sourceFolder" value="E:\Test"/>
         <add key="destinationFolder" value="E:\TestDestination"/>
         <add key="logFilePath" value="E:\Temp\Log"/>
-	    <add key="timerInterval" value="18000000"/>
+        <add key="timerInterval" value="18000000"/>
       </appSettings>
     </configuration>    
 ```
